@@ -1,0 +1,23 @@
+<odoo>
+    <data>
+        <template id="moldeo_snippet_id" inherit_id="website.snippets" name="Moldeo Snippet">
+          <xpath expr="//div[@id='snippet_structure']/div[@class='o_panel_body']" position="inside">
+            <t t-snippet="basico_generado4.snippet_moldeo"
+            t-thumbnail="data:image/png;base64,iVBORw0KGgoAAAAAN" />
+          </xpath>
+        </template>
+
+        <template id="snippet_moldeo" name="Moldeo Snippet">
+          <section>
+            <div class="container">
+              <h2>HOLA MUNDO</h2>
+            </div>
+            <div>
+              <p>TESTO DE PRUEBA. POR FAVOR CAMBIAR</p>
+            </div>
+            <button class="btn">BOTON PRUEBA</button>
+          </section>
+         </template>       
+
+    </data>
+</odoo>
